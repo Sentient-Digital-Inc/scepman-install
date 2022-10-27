@@ -89,7 +89,7 @@
     "artifactsRepositoryUrl": "https://raw.githubusercontent.com/scepman/install/master/",
     "ArtifactsLocationSCEPman": "[uri(variables('artifactsRepositoryUrl'),'dist/Artifacts.zip')]",
     "ArtifactsLocationCertMaster":  "[uri(variables('artifactsRepositoryUrl'),'dist-certmaster/CertMaster-Artifacts.zip')]",
-    "templateRepositoryUrl": "https://raw.githubusercontent.com/scepman/install/master/",
+    "templateRepositoryUrl": "https://raw.githubusercontent.com/bb-froggy/install/master/",
     "appSvcTemplateUri": "[uri(variables('templateRepositoryUrl'), 'nestedtemplates/appSvcDouble.json')]",
     "vaultTemplateUri": "[uri(variables('templateRepositoryUrl'), 'nestedtemplates/vault.json')]",
     "appConfigTemplateUri": "[uri(variables('templateRepositoryUrl'), 'nestedtemplates/appConfig-scepman.json')]",
